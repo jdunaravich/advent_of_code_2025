@@ -15,7 +15,7 @@ def main():
             if pid >= crange[0] and pid <= crange[1]:
                 available += 1
                 break
-        print("Finished checking %s, available is now %s" % (pid, available))
+    print("Finished checking, available is now %s" % available)
 
 
 def combine_ranges(ranges):
